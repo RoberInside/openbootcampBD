@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    Creacion de beans a mano-->
+<!--    <bean id="calculator" class="org.example.Calculator" scope="prototype">-->
+<!--        </bean>-->
+<!--    <bean id="gFacturas" class="org.example.GestorFacturas">-->
+<!--        <constructor-arg name="calculator" ref="calculator"/>-->
+<!--        </bean>-->
+
+<!--    Beans automaticos, tambien hay que poner flag en la calse que queramos convertir en bean para que lo reconozca como tal-->
+    <!--Escanea las clases del paquete de java para añadirlos automaticamente como beans -->
+    <context:component-scan base-package="org.example"/>
+
+    <!-- more bean definitions go here -->
+
+</beans>
