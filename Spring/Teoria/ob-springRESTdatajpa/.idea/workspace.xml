@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63fad93a-7585-488c-89a4-5225fe9b4ba7" name="Changes" comment="">
+    <list default="true" id="63fad93a-7585-488c-89a4-5225fe9b4ba7" name="Changes" comment="Comenzado proyecto REST (Teoria)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/repositories/BookRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/ObSpringResTdatajpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/ObSpringResTdatajpaApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/obspringRESTdatajpa/ObSpringResTdatajpaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/obspringRESTdatajpa/ObSpringResTdatajpaApplication.class" afterDir="false" />
     </list>
@@ -16,11 +16,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -28,6 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -75,16 +79,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/ARCHIVOS ADMIN/IdeaProjects/REPOSITORY/openbootcampBD/Spring/Teoria/ob-springRESTdatajpa"
+    "last_opened_file_path": "D:/ARCHIVOS ADMIN/IdeaProjects/REPOSITORY/openbootcampBD/Spring/Teoria/ob-springRESTdatajpa",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.obspringRESTdatajpa.repositories" />
+      <recent name="com.example.obspringRESTdatajpa.controllers" />
+      <recent name="com.example.obspringRESTdatajpa.entities" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ObSpringResTdatajpaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.obspringRESTdatajpa.ObSpringResTdatajpaApplication" />
       <module name="ob-springRESTdatajpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.obspringRESTdatajpa.*" />
+          <option name="PATTERN" value="com.example.obspringRESTdatajpa.entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,7 +119,29 @@
       <option name="presentableId" value="Default" />
       <updated>1682414738229</updated>
     </task>
+    <task id="LOCAL-00001" summary="Comenzado proyecto REST (Teoria)">
+      <created>1682418875253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682418875253</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Comenzado proyecto REST (Teoria)">
+      <created>1682418998838</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682418998838</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -119,5 +153,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Comenzado proyecto REST (Teoria)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comenzado proyecto REST (Teoria)" />
   </component>
 </project>

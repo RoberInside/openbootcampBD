@@ -1,5 +1,7 @@
 package com.example.obspringRESTdatajpa;
 
+import com.example.obspringRESTdatajpa.entities.Book;
+import com.example.obspringRESTdatajpa.repositories.BookRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -25,9 +27,7 @@ public class ObSpringResTdatajpaApplication {
 
 		System.out.println(bookRep.findAll().size());
 
-		bookRep.deleteById(1L);
 
-		System.out.println(bookRep.findAll().size());
 	}
 
 }

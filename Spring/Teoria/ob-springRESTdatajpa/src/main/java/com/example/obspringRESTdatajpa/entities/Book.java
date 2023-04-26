@@ -1,4 +1,4 @@
-package com.example.obspringRESTdatajpa;
+package com.example.obspringRESTdatajpa.entities;
 
 import jakarta.persistence.*;
 
