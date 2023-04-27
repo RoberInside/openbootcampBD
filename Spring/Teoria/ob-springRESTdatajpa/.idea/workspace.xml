@@ -7,7 +7,6 @@
     <list default="true" id="63fad93a-7585-488c-89a4-5225fe9b4ba7" name="Changes" comment="Tema 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/controllers/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/repositories/BookRepository.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/ARCHIVOS ADMIN/IdeaProjects/REPOSITORY/openbootcampBD/Spring/Ejercicios/SpringEjercicio4-5-6",
+    "last_opened_file_path": "D:/ARCHIVOS ADMIN/IdeaProjects/REPOSITORY/openbootcampBD/Spring/Teoria/ob-springRESTdatajpa",
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
