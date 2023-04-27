@@ -2,8 +2,8 @@ package com.example.obspringRESTdatajpa.controllers;
 
 import com.example.obspringRESTdatajpa.entities.Book;
 import com.example.obspringRESTdatajpa.repositories.BookRepository;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -29,21 +29,32 @@ public class BookController {
     }
 
     // buscar un libro en base a su id
-    public Book findById(Long id) {
-        return repository.findById(id).get();
+    @GetMapping("/api/books/{id}")
+    public ResponseEntity<Book> findById(@PathVariable Long id) {
+        if (repository.findById(id).isEmpty())
+            return ResponseEntity.notFound().build();
+        return ResponseEntity.ok(repository.findById(id).get());
     }
     //crear libro en base de datos
-    public void create() {
-        Book b = new Book();
+    @PostMapping("/api/books")
+    public ResponseEntity<Book> create(@RequestBody Book b) {   //pide un cuerpo a la url
+
         for (Long i = 0L; i < repository.count(); i++) {
-            if (repository.getReferenceById(i).getId() == b.getId()) {
-                return;
+            if (repository.getReferenceById(i).getId().equals(b.getId())) {
+                return ResponseEntity.noContent().build();
             }
         }
-        repository.save(b);
+        return ResponseEntity.ok(repository.save(b));
     }
     //actualizar un libro en base de datos
-
+    @PutMapping("/api/books/update/{id}")
+    public Book update(@PathVariable Long id,@RequestBody Book b) {
+        b.setId(id);
+        return b;
+    }
     //borrar un libro en base de datos
-
+    @DeleteMapping("/api/books/{id}")
+    public void delete(@PathVariable Long id) {
+        repository.deleteById(id);
+    }
 }
