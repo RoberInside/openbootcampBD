@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63fad93a-7585-488c-89a4-5225fe9b4ba7" name="Changes" comment="Tema 5">
+    <list default="true" id="63fad93a-7585-488c-89a4-5225fe9b4ba7" name="Changes" comment="Tema 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/controllers/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/ObSpringResTdatajpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/ObSpringResTdatajpaApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +73,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/ARCHIVOS ADMIN/IdeaProjects/REPOSITORY/openbootcampBD/Spring/Teoria/ob-springRESTdatajpa",
-    "settings.editor.selected.configurable": "project.propCompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ARCHIVOS ADMIN/IdeaProjects/REPOSITORY/openbootcampBD/Spring/Teoria/ob-springRESTdatajpa&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.obspringRESTdatajpa.repositories" />
@@ -137,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682513565802</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tema 7">
+      <created>1682599577553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682599577553</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -161,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Comenzado proyecto REST (Teoria)" />
     <MESSAGE value="Tema 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 5" />
+    <MESSAGE value="Tema 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 7" />
   </component>
 </project>
