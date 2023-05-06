@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63fad93a-7585-488c-89a4-5225fe9b4ba7" name="Changes" comment="Tema 7">
+    <list default="true" id="63fad93a-7585-488c-89a4-5225fe9b4ba7" name="Changes" comment="Tema 8, añadida documentacion swagger pero no funciona porque no encuentra una referencia automaticamente.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/ObSpringResTdatajpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/ObSpringResTdatajpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/obspringRESTdatajpa/controllers/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/obspringRESTdatajpa/ObSpringResTdatajpaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/obspringRESTdatajpa/ObSpringResTdatajpaApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -73,38 +76,117 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ARCHIVOS ADMIN/IdeaProjects/REPOSITORY/openbootcampBD/Spring/Teoria/ob-springRESTdatajpa&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/ARCHIVOS ADMIN/IdeaProjects/REPOSITORY/openbootcampBD/Spring/Teoria/spring-deploy",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.obspringRESTdatajpa.repositories" />
       <recent name="com.example.obspringRESTdatajpa.controllers" />
       <recent name="com.example.obspringRESTdatajpa.entities" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.obspringRESTdatajpa.controllers" />
+      <recent name="com.example.obspringRESTdatajpa.services" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="ObSpringResTdatajpaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.obspringRESTdatajpa.ObSpringResTdatajpaApplication" />
+  <component name="RunManager" selected="JUnit.BookControllerTest.create">
+    <configuration name="BookControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ob-springRESTdatajpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.obspringRESTdatajpa.entities.*" />
+          <option name="PATTERN" value="com.example.obspringRESTdatajpa.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.obspringRESTdatajpa.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.obspringRESTdatajpa.controllers.BookControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ob-springRESTdatajpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.obspringRESTdatajpa.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.obspringRESTdatajpa.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.obspringRESTdatajpa.controllers.BookControllerTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ob-springRESTdatajpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.obspringRESTdatajpa.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.obspringRESTdatajpa.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.obspringRESTdatajpa.controllers.BookControllerTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ob-springRESTdatajpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.obspringRESTdatajpa.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.obspringRESTdatajpa.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.obspringRESTdatajpa.controllers.BookControllerTest" />
+      <option name="METHOD_NAME" value="findById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ob-springRESTdatajpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.obspringRESTdatajpa.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.obspringRESTdatajpa.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.obspringRESTdatajpa.controllers.BookControllerTest" />
+      <option name="METHOD_NAME" value="hello" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObSpringResTdatajpaApplication" />
+        <item itemvalue="JUnit.BookControllerTest.create" />
+        <item itemvalue="JUnit.BookControllerTest.findById" />
+        <item itemvalue="JUnit.BookControllerTest.findAll" />
+        <item itemvalue="JUnit.BookControllerTest.hello" />
+        <item itemvalue="JUnit.BookControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682599577553</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tema 8, añadida documentacion swagger pero no funciona porque no encuentra una referencia automaticamente.">
+      <created>1682684665694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682684665694</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -170,6 +259,12 @@
     <MESSAGE value="Comenzado proyecto REST (Teoria)" />
     <MESSAGE value="Tema 5" />
     <MESSAGE value="Tema 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 7" />
+    <MESSAGE value="Tema 8, añadida documentacion swagger pero no funciona porque no encuentra una referencia automaticamente." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 8, añadida documentacion swagger pero no funciona porque no encuentra una referencia automaticamente." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ob_springRESTdatajpa$BookPriceCalculatorTest.ic" NAME="BookPriceCalculatorTest Coverage Results" MODIFIED="1682933959694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.obspringRESTdatajpa.services.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -40,6 +40,7 @@ public class BookController {
             return ResponseEntity.notFound().build();
         return ResponseEntity.ok(repository.findById(id).get());
     }
+
     //crear libro en base de datos
     @PostMapping("/api/books")
     public ResponseEntity<Book> create(@RequestBody Book b) {   //pide un cuerpo a la url
@@ -47,6 +48,7 @@ public class BookController {
             return ResponseEntity.badRequest().build(); // intenta crear un libro con una id existente
         return ResponseEntity.ok(repository.save(b));
     }
+
     //actualizar un libro en base de datos
     @PutMapping("/api/books")
     public ResponseEntity<Book> update(@RequestBody Book b) {
@@ -58,6 +60,7 @@ public class BookController {
         }
         return ResponseEntity.ok(repository.save(b));
     }
+
     //borrar un libro en base de datos
     @DeleteMapping("/api/books/{id}")
     public ResponseEntity<Book> delete(@PathVariable Long id) {
@@ -69,6 +72,7 @@ public class BookController {
         return ResponseEntity.notFound().build();
 
     }
+
     @DeleteMapping("/api/books")
     public ResponseEntity<Book> deleteAll(){
         repository.deleteAll();
